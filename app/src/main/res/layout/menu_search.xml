@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:background="@color/menu_search">
+
+        <EditText
+            android:id="@+id/menu_search"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@null"
+            android:hint="搜索"
+            android:maxLines="1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textColorHint="@color/white"
+            android:drawableLeft="@drawable/menu_search_24" />
+
+</LinearLayout>
+
